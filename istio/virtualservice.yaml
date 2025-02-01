@@ -1,0 +1,19 @@
+# istio/virtualservice.yaml
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: my-app-virtualservice
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - my-app-gateway
+  http:
+    - match:
+        - uri:
+            exact: /
+      route:
+        - destination:
+            host: my-app
+            port:
+              number: 5000

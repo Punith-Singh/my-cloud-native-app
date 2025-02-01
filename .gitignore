@@ -2,7 +2,7 @@
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
+__pycache__/ 
 
 # Ignore VS Code settings
 .vscode/
@@ -26,13 +26,13 @@ venv.bak/
 .terraform/
 terraform/.terraform/
 
-# Ignore Helm-related files
-*.tgz
-*.helm/
+# Ignore Helm-related files (commented out so they are not ignored)
+# *.tgz
+# *.helm/
 
-# Ignore Kubernetes manifests
-*.yaml
-*.yml
+# Ignore Kubernetes manifests (commented out so they are not ignored)
+# *.yaml
+# *.yml
 
 # Ignore logs
 *.log
@@ -50,8 +50,8 @@ Thumbs.db
 *.env
 *.json
 
-# Ignore Prometheus & Grafana temporary files
-grafana/provisioning/
-prometheus/prometheus.yml
+# Ignore Prometheus & Grafana temporary files (commented out so they are not ignored)
+# grafana/provisioning/
+# prometheus/prometheus.yml
 
 # Ignore any other files or folders you want not to push to GitHub
