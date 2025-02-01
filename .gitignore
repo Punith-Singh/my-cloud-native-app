@@ -1,0 +1,57 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore IDE settings (e.g., JetBrains, IntelliJ, PyCharm, etc.)
+.idea/
+
+# Ignore Docker related files
+docker-compose.override.yml
+.dockerignore
+
+# Ignore environment files (virtualenv, conda, etc.)
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# Ignore Terraform files (state and backup)
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform/.terraform/
+
+# Ignore Helm-related files
+*.tgz
+*.helm/
+
+# Ignore Kubernetes manifests
+*.yaml
+*.yml
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.bak
+*.swp
+*.swo
+
+# Ignore sensitive files
+*.env
+*.json
+
+# Ignore Prometheus & Grafana temporary files
+grafana/provisioning/
+prometheus/prometheus.yml
+
+# Ignore any other files or folders you want not to push to GitHub
