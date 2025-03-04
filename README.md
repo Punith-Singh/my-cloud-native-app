@@ -78,7 +78,7 @@ Follow these steps to set up and run the application.
     b)Deploy Istio Gateway and VirtualService: kubectl apply -f istio/gateway.yaml
                                         kubectl apply -f istiovirtualservice.yaml
 
-9) uto-Scale App: kubectl autoscale deployment my-app --cpu-percent=50 --min=2 --max=10
+9) Auto-Scale App: kubectl autoscale deployment my-app --cpu-percent=50 --min=2 --max=10
 
 
 
